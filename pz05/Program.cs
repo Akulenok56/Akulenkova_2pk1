@@ -1,16 +1,21 @@
 ﻿namespace pz05
- class Program
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.Write("Введите число N: ");
-        int n = int.Parse(Console.ReadLine());
-
-        int i = 1;
-        while (i * i <= n)
+        static void Main(string[] args)
         {
-            Console.Write(i * i + " ");
-            i++;
+            Console.Write("Введите число N: ");
+            int n = int.Parse(Console.ReadLine());
+
+            int i = 1;
+            while (i * i <= n)
+            {
+                Console.Write(i * i + " ");
+                i++;
+            }
+
         }
     }
+
+    
 }
